@@ -1,5 +1,5 @@
 import redis
-r = redis.Redis(host='kudaglobal-prod.redis.cache.windows.net', port=6379, password='EvFB9EF5CvhAAji7lFvgrGqDwJR5ojGeaAzCaAZtaCk=', decode_responses=True)
+r = redis.Redis(host='XXXX', port=XXXX, password='XXX', decode_responses=True)
 
 # Check for pending messages
 rkeys = r.keys()
